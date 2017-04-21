@@ -1,0 +1,14 @@
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\bin\Debug\DandD.exe.config
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\bin\Debug\DandD.exe
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\bin\Debug\DandD.pdb
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.csprojResolveAssemblyReference.cache
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\MainWindow.g.cs
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\App.g.cs
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD_MarkupCompile.cache
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD_MarkupCompile.lref
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\MainWindow.baml
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.g.resources
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.Properties.Resources.resources
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.csproj.GenerateResource.Cache
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.exe
+c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.pdb
