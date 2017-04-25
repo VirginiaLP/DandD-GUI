@@ -12,3 +12,5 @@ c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Da
 c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.csproj.GenerateResource.Cache
 c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.exe
 c:\users\virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DandD.pdb
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\CharDetails.g.cs
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\CharDetails.baml
