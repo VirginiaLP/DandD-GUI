@@ -8,8 +8,8 @@
         Title="MainWindow" Height="738.708" Width="1354.813">
     <Grid  >
 
-        <Button Content="Character Stats" FontSize="22" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="147" VerticalAlignment="Top" Width="174" Click="Button_Click"/>
-        <Button Content="Character Details" FontSize="20" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="174" Margin="0,146,0,0"/>
+        <Button Content="Character Stats" FontSize="22" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="147" VerticalAlignment="Top" Width="174" />
+        <Button Content="Character Details" FontSize="20" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="174" Margin="0,146,0,0" Click="Button_Click"/>
         <Button Content="Journal" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="145" VerticalAlignment="Top" Width="174" Margin="0,284,0,0"/>
         <Button Content="Dice Roller" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="174" Margin="0,428,0,0"/>
         <Button Content="Settings" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="174" Margin="0,563,0,0"/>
