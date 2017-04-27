@@ -15,24 +15,24 @@ using System.Windows.Shapes;
 namespace DandD
 {
     /// <summary>
-    /// Interaction logic for CharDetails.xaml
+    /// Interaction logic for Journal.xaml
     /// </summary>
-    public partial class CharDetails : Window
+    public partial class Journal : Window
     {
-        public CharDetails()
+        public Journal()
         {
             InitializeComponent();
+        }
+        private void GoToCharDetails(object sender, RoutedEventArgs e)
+        {
+            CharDetails cd = new CharDetails();
+            cd.Show();
+            this.Close();
         }
         private void GoToCharStats(object sender, RoutedEventArgs e)
         {
             MainWindow mw = new MainWindow();
             mw.Show();
-            this.Close();
-        }
-        private void GoToJournal(object sender, RoutedEventArgs e)
-        {
-            Journal j = new Journal();
-            j.Show();
             this.Close();
         }
         private void GoToDiceRoller(object sender, RoutedEventArgs e)

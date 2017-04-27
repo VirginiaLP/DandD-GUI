@@ -1,17 +1,17 @@
-﻿<Window x:Class="DandD.CharDetails"
+﻿<Window x:Class="DandD.Settings"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DandD"
         mc:Ignorable="d"
-        Title="CharDetails" Height="738.708" Width="1354.813">
+        Title="Settings" Height="738.708" Width="1354.813">
     <Grid>
         <Button Content="Character Stats" FontSize="22" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="147" VerticalAlignment="Top" Width="174" Click="GoToCharStats"/>
-        <Button Content="Character Details" FontSize="20" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="174" Margin="0,146,0,0" />
+        <Button Content="Character Details" FontSize="20" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="174" Margin="0,146,0,0" Click="GoToCharDetails"/>
         <Button Content="Journal" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="145" VerticalAlignment="Top" Width="174" Margin="0,284,0,0" Click="GoToJournal"/>
         <Button Content="Dice Roller" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="174" Margin="0,428,0,0" Click="GoToDiceRoller"/>
-        <Button Content="Settings" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="174" Margin="0,563,0,0" Click="GoToSettings"/>
+        <Button Content="Settings" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="174" Margin="0,563,0,0" />
 
         <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="118" Margin="174,0,0,0" VerticalAlignment="Top" Width="1164"/>
         <Label Content="Name:" FontSize="22" HorizontalAlignment="Left" Height="35" Margin="179,10,0,0" VerticalAlignment="Top" Width="80"/>
@@ -32,9 +32,9 @@
         <Label Content="Prof Bonus:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="1149,69,0,0" VerticalAlignment="Top" Width="109"/>
         <TextBox HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1258,65,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" Width="43"/>
 
-        <Label Content="This one is actually the character details page" FontSize="22" HorizontalAlignment="Left" Height="46" Margin="220,113,0,0" VerticalAlignment="Top" Width="531"/>
-        
-        
+        <Label Content="This one is actually the settings page" FontSize="22" HorizontalAlignment="Left" Height="46" Margin="220,113,0,0" VerticalAlignment="Top" Width="531"/>
+
+
         <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="142" Margin="184,337,0,0" VerticalAlignment="Top" Width="161"/>
         <Label Content="Armor Class" FontSize="18"  HorizontalAlignment="Left" Height="41" Margin="202,426,0,0" VerticalAlignment="Top" Width="131"/>
         <TextBlock HorizontalAlignment="Left" FontSize="48" Height="57" Margin="230,352,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" Width="73"/>

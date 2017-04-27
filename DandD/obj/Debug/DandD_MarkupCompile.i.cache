@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\
+C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\
 DandD
 none
 false
 DEBUG;TRACE
-C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\App.xaml
-2-537154118
+C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\App.xaml
+5-1151162316
 
-101521231939
+13-300619008
 131254293103
-CharDetails.xaml;MainWindow.xaml;
+CharDetails.xaml;DiceRoller.xaml;Journal.xaml;MainWindow.xaml;Settings.xaml;
 
 True
 

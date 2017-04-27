@@ -15,18 +15,18 @@ using System.Windows.Shapes;
 namespace DandD
 {
     /// <summary>
-    /// Interaction logic for CharDetails.xaml
+    /// Interaction logic for Settings.xaml
     /// </summary>
-    public partial class CharDetails : Window
+    public partial class Settings : Window
     {
-        public CharDetails()
+        public Settings()
         {
             InitializeComponent();
         }
-        private void GoToCharStats(object sender, RoutedEventArgs e)
+        private void GoToCharDetails(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
-            mw.Show();
+            CharDetails cd = new CharDetails();
+            cd.Show();
             this.Close();
         }
         private void GoToJournal(object sender, RoutedEventArgs e)
@@ -41,10 +41,10 @@ namespace DandD
             dr.Show();
             this.Close();
         }
-        private void GoToSettings(object sender, RoutedEventArgs e)
+        private void GoToCharStats(object sender, RoutedEventArgs e)
         {
-            Settings s = new Settings();
-            s.Show();
+            MainWindow mw = new MainWindow();
+            mw.Show();
             this.Close();
         }
     }
