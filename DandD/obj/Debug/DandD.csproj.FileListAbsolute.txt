@@ -36,3 +36,6 @@ C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\DandD.csproj.Generate
 C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\DandD.exe
 C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\DandD.pdb
 C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\DandD.csprojResolveAssemblyReference.cache
+C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\SavedThings.baml
+C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\App.baml
+C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\SavedStuff.baml

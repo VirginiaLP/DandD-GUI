@@ -22,6 +22,7 @@ namespace DandD
         public CharDetails()
         {
             InitializeComponent();
+            this.DataContext = SavedThings.Instance;
         }
         private void GoToCharStats(object sender, RoutedEventArgs e)
         {

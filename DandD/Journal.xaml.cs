@@ -22,6 +22,7 @@ namespace DandD
         public Journal()
         {
             InitializeComponent();
+            this.DataContext = SavedThings.Instance;
         }
         private void GoToCharDetails(object sender, RoutedEventArgs e)
         {

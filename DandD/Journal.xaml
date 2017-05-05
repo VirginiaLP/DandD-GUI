@@ -15,9 +15,9 @@
         <Label x:Name="label" Content="Journal Entries" FontSize="35" HorizontalAlignment="Left" Margin="252,14,0,0" VerticalAlignment="Top" Height="59" Width="248"/>
         <Label x:Name="label_Copy" Content="Quest Log" FontSize="35" HorizontalAlignment="Left" Margin="669,18,0,0" VerticalAlignment="Top" Height="59" Width="248"/>
         <Label x:Name="label_Copy1" Content="Notes" FontSize="35" HorizontalAlignment="Left" Margin="1085,18,0,0" VerticalAlignment="Top" Height="59" Width="124"/>
-        <TextBox Name="journalBox" Background="LightSteelBlue" FontSize="20" HorizontalAlignment="Left" Height="621" Margin="206,77,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="344" TextChanged="textBox_TextChanged"/>
-        <TextBox Name="questBox" Background="Thistle" FontSize="20" HorizontalAlignment="Left" Height="611" Margin="585,81,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="344"/>
-        <TextBox Name="notesBox" Background="Gainsboro" FontSize="20" HorizontalAlignment="Left" Height="612" Margin="967,81,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="344"/>
+        <TextBox Name="journalBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="LightSteelBlue" FontSize="20" HorizontalAlignment="Left" Height="621" Margin="206,77,0,0" TextWrapping="Wrap" Text="{Binding Path=journalText[0]}" VerticalAlignment="Top" Width="344" TextChanged="textBox_TextChanged"/>
+        <TextBox Name="questBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="Thistle" FontSize="20" HorizontalAlignment="Left" Height="611" Margin="585,81,0,0" TextWrapping="Wrap" Text="{Binding Path=journalText[1]}" VerticalAlignment="Top" Width="344"/>
+        <TextBox Name="notesBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="Gainsboro" FontSize="20" HorizontalAlignment="Left" Height="612" Margin="967,81,0,0" TextWrapping="Wrap" Text="{Binding Path=journalText[2]}" VerticalAlignment="Top" Width="344"/>
 
     </Grid>
 </Window>

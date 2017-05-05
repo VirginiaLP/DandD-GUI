@@ -12,75 +12,9 @@
         <Button Content="Journal" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="145" VerticalAlignment="Top" Width="174" Margin="0,284,0,0" Click="GoToJournal"/>
         <Button Content="Dice Roller" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="174" Margin="0,428,0,0" Click="GoToDiceRoller"/>
         <Button Content="Settings" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="174" Margin="0,563,0,0" />
-
-        <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="118" Margin="174,0,0,0" VerticalAlignment="Top" Width="1164"/>
-        <Label Content="Name:" FontSize="22" HorizontalAlignment="Left" Height="35" Margin="179,10,0,0" VerticalAlignment="Top" Width="80"/>
-        <TextBox HorizontalAlignment="Left" FontSize="22" Background="WhiteSmoke" Height="34" Margin="264,13,0,0" TextWrapping="Wrap" Text="Bobbarian" VerticalAlignment="Top" Width="259"/>
-        <Label Content="Class:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="530,12,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="594,13,0,0" TextWrapping="Wrap" Text="1 Barbarian" VerticalAlignment="Top" Width="222"/>
-        <Label Content="XP:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="830,9,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="882,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="69"/>
-
-        <Label Content="Speed:" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="184,64,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="248,65,0,0" TextWrapping="Wrap" Text="30 ft" VerticalAlignment="Top" Width="73"/>
-        <Label Content="Player Name:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="964,12,0,0" VerticalAlignment="Top" Width="124"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="1086,13,0,0" TextWrapping="Wrap" Text="Bob" VerticalAlignment="Top" Width="222"/>
-        <Label Content="Race:" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="337,62,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="401,64,0,0" TextWrapping="Wrap" Text="Human" VerticalAlignment="Top" Width="103"/>
-        <Label Content="Alignment:" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="527,65,0,0" VerticalAlignment="Top" Width="102"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="29" Margin="635,66,0,0" TextWrapping="Wrap" Text="CG" VerticalAlignment="Top" Width="40"/>
-        <Label Content="Prof Bonus:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="1149,69,0,0" VerticalAlignment="Top" Width="109"/>
-        <TextBox HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1258,65,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" Width="43"/>
-
-        <Label Content="This one is actually the settings page" FontSize="22" HorizontalAlignment="Left" Height="46" Margin="220,113,0,0" VerticalAlignment="Top" Width="531"/>
-
-
-        <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="142" Margin="184,337,0,0" VerticalAlignment="Top" Width="161"/>
-        <Label Content="Armor Class" FontSize="18"  HorizontalAlignment="Left" Height="41" Margin="202,426,0,0" VerticalAlignment="Top" Width="131"/>
-        <TextBlock HorizontalAlignment="Left" FontSize="48" Height="57" Margin="230,352,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" Width="73"/>
-        <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="169" Margin="590,310,0,0" VerticalAlignment="Top" Width="161"/>
-        <Border BorderBrush="Black" BorderThickness="3" CornerRadius="10" HorizontalAlignment="Left" Height="125" Margin="606,318,0,0" VerticalAlignment="Top" Width="131">
-            <TextBlock HorizontalAlignment="Left" FontSize="48" Height="57" TextWrapping="Wrap" Text="15" VerticalAlignment="Top" Width="72" Margin="33,-13,0,0"/>
-        </Border>
-        <Label Content="Hit Points" FontSize="18"  HorizontalAlignment="Left" Height="41" Margin="630,443,0,0" VerticalAlignment="Top" Width="107"/>
-        <Label Content="out of" FontSize="18"  HorizontalAlignment="Left" Height="41" Margin="644,354,0,0" VerticalAlignment="Top" Width="107"/>
-        <TextBox HorizontalAlignment="Left" FontSize="30" Height="49" Margin="651,385,0,0" TextWrapping="Wrap" Text="15" VerticalAlignment="Top" Width="57"/>
-        <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="91" Margin="364,388,0,0" VerticalAlignment="Top" Width="203"/>
-        <Label Content="Hit Dice" FontSize="18"  HorizontalAlignment="Left" Height="42" Margin="423,444,0,0" VerticalAlignment="Top" Width="107"/>
-        <Border BorderBrush="Black" BorderThickness="3" CornerRadius="10" HorizontalAlignment="Left" Height="55" Margin="373,395,0,0" VerticalAlignment="Top" Width="177">
-            <TextBlock HorizontalAlignment="Left" FontSize="38" Height="57" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="72" Margin="23,-3,0,-5"/>
-        </Border>
-        <Label Content="out of" FontSize="18"  HorizontalAlignment="Left" Height="40" Margin="428,406,0,0" VerticalAlignment="Top" Width="107"/>
-        <TextBox HorizontalAlignment="Left" FontSize="30" Height="41" Margin="497,404,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="33"/>
-        <Rectangle Fill="Gainsboro" HorizontalAlignment="Left" Height="219" Margin="966,484,0,0" VerticalAlignment="Top" Width="366"/>
-        <Rectangle Fill="Thistle" HorizontalAlignment="Left" Height="218" Margin="576,485,0,0" VerticalAlignment="Top" Width="366"/>
-        <Rectangle Fill="LightSteelBlue" HorizontalAlignment="Left" Height="218" Margin="182,485,0,0" VerticalAlignment="Top" Width="366"/>
-        <Label Content="Attacks" FontSize="30" HorizontalAlignment="Left" Height="44" Margin="294,478,0,0" VerticalAlignment="Top" Width="107"/>
-        <Label Content="Spells" FontSize="30" HorizontalAlignment="Left" Height="59" Margin="709,478,0,0" VerticalAlignment="Top" Width="107"/>
-        <Label Content="Feats and Traits" FontSize="30" HorizontalAlignment="Left" Height="44" Margin="1035,479,0,0" VerticalAlignment="Top" Width="229"/>
-        <TextBox HorizontalAlignment="Left" Background="Gainsboro" BorderBrush="Black" BorderThickness="2" FontSize="16" Height="148" Margin="995,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="315"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="196,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="131"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="341,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="414,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="196,590,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="131"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="341,590,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="414,590,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="196,651,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="131"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="341,651,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="414,651,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="592,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="131"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="737,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="810,537,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="592,590,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="131"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="737,590,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="810,590,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="592,651,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="131"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="737,651,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Height="34" Margin="810,651,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="117"/>
-        <Label Content="Init:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="989,69,0,0" VerticalAlignment="Top" Width="109"/>
-        <TextBox HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1068,64,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" Width="43"/>
-        <Label Content="Passive Perception:" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="702,63,0,0" VerticalAlignment="Top" Width="170"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="29" Margin="887,65,0,0" TextWrapping="Wrap" Text="14" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="button" Content="Save" Click="saveStuff" FontSize="72" HorizontalAlignment="Left" Margin="518,34,0,0" VerticalAlignment="Top" Width="421" Height="219" Background="LightSteelBlue"/>
+        <Button x:Name="button_Copy" Content="Load" Click="loadStuff" FontSize="72" HorizontalAlignment="Left" Margin="518,312,0,0" VerticalAlignment="Top" Width="421" Height="219" Background="Thistle"/>
+        <Label x:Name="label" Content="You can save this character's data to a file or read in aready saved data from another file" FontSize="20" HorizontalAlignment="Left" Margin="439,588,0,0" VerticalAlignment="Top" Width="632" Height="93"/>
 
     </Grid>
 </Window>

@@ -23,6 +23,7 @@ namespace DandD
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = SavedThings.Instance;
         }
 
         private void GoToCharDetails(object sender, RoutedEventArgs e)
@@ -121,6 +122,32 @@ namespace DandD
 
             boxy = (CheckBox)this.FindName("chr1");
             UpdateSkill(boxy, e);
+        }
+
+        private void UpdateStuff(object sender, RoutedEventArgs e)
+        {
+            TextBox boxy = (TextBox)sender;
+
+            UpdateKey(boxy.Name, boxy.Text);
+        }
+
+        private void UpdateKey(object key, object value)
+        {
+            // load the resource dictionary
+            var rd = new System.Windows.ResourceDictionary();
+            rd.Source = new System.Uri("SavedStuff.xaml", System.UriKind.RelativeOrAbsolute);
+
+            rd[key] = value;
+
+            var settings = new System.Xml.XmlWriterSettings();
+            settings.Indent = true;
+            var writer = System.Xml.XmlWriter.Create(@"SavedStuff.xaml", settings);
+            System.Windows.Markup.XamlWriter.Save(rd, writer);
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

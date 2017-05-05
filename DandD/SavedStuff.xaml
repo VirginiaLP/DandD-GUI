@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:DandD">
+    <system:String x:Key="nameBox" >Name</system:String>
+    <system:String x:Key="Class">1 Barbarian</system:String>
+    <system:String x:Key="XP">0</system:String>
+    <system:String x:Key="PlayerName">Name</system:String>
+    <system:String x:Key="Speed">30ft</system:String>
+    <system:String x:Key="Race">Human</system:String>
+    <system:String x:Key="Alignment">CE</system:String>
+    <system:String x:Key="PP">14</system:String>
+    <system:String x:Key="Init">+2</system:String>
+    <system:String x:Key="ProfBonus">+2</system:String>
+    <system:String x:Key="Str">8</system:String>
+    <system:String x:Key="Dex">8</system:String>
+    <system:String x:Key="Con">8</system:String>
+    <system:String x:Key="Int">8</system:String>
+    <system:String x:Key="Wis">8</system:String>
+    <system:String x:Key="Chr">8</system:String>
+    <system:String x:Key="AC">13</system:String>
+    <system:String x:Key="HitDice">1d10</system:String>
+    <system:String x:Key="HP">10</system:String>
+    <system:String x:Key="Attk1N">1</system:String>
+    <system:String x:Key="Attk1B">+0</system:String>
+    <system:String x:Key="Attk1D">0+0</system:String>
+    <system:String x:Key="Attk2N">2</system:String>
+    <system:String x:Key="Attk2B">+0</system:String>
+    <system:String x:Key="Attk2D">0+0</system:String>
+    <system:String x:Key="Attk3N">3</system:String>
+    <system:String x:Key="Attk3B">+0</system:String>
+    <system:String x:Key="Attk3D">0+0</system:String>
+    <system:String x:Key="Spel1N">1</system:String>
+    <system:String x:Key="Spel1B">+0</system:String>
+    <system:String x:Key="Spel1D">0+0</system:String>
+    <system:String x:Key="Spel2N">2</system:String>
+    <system:String x:Key="Spel2B">+0</system:String>
+    <system:String x:Key="Spel2D">0+0</system:String>
+    <system:String x:Key="Spel3N">3</system:String>
+    <system:String x:Key="Spel3B">+0</system:String>
+    <system:String x:Key="Spel3D">0+0</system:String>
+    <system:String x:Key="Feats">Feats and Traits</system:String>
+    
+    
+</ResourceDictionary>

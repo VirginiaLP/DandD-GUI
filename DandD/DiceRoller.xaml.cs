@@ -24,6 +24,7 @@ namespace DandD
         public DiceRoller()
         {
             InitializeComponent();
+            this.DataContext = SavedThings.Instance;
         }
         private void GoToCharDetails(object sender, RoutedEventArgs e)
         {
@@ -61,7 +62,7 @@ namespace DandD
             bool why = Int32.TryParse(yBox.Text, out y);
 
             int[] rolled = new int[x];
-            if(ex && why)
+            if (ex && why && x != 0 && y != 0)
             {
                 for (int i = 0; i < x; i++)
                 {
@@ -69,18 +70,25 @@ namespace DandD
                     total += hold;
                     rolled[i] = hold;
                 }
+
+                TextBlock dieOutput = (TextBlock)this.FindName("multipleDieOutputBox");
+                string temp = "";
+                for (int i = 0; i < x - 1; i++)
+                    temp += rolled[i].ToString() + "+";
+                temp += rolled[x - 1].ToString();
+
+                dieOutput.Text = temp;
+
+                TextBlock output = (TextBlock)this.FindName("DieOutputBlock");
+                output.Text = total.ToString();
             }
-
-            TextBlock dieOutput = (TextBlock)this.FindName("multipleDieOutputBox");
-            string temp = "";
-            for (int i = 0; i < x - 1; i++)
-                temp += rolled[i].ToString() + "+";
-            temp += rolled[x - 1].ToString();
-
-            dieOutput.Text = temp;
-
-            TextBlock output = (TextBlock)this.FindName("DieOutputBlock");
-            output.Text = total.ToString();
+            else
+            {
+                TextBlock output = (TextBlock)this.FindName("DieOutputBlock");
+                output.Text = "NO";
+                TextBlock dieoutput = (TextBlock)this.FindName("multipleDieOutputBox");
+                dieoutput.Text = "You can't do that, Scrub";
+            }
         }
     }
 }

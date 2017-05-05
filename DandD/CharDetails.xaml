@@ -13,28 +13,32 @@
         <Button Content="Dice Roller" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="135" VerticalAlignment="Top" Width="174" Margin="0,428,0,0" Click="GoToDiceRoller"/>
         <Button Content="Settings" FontSize="28" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="140" VerticalAlignment="Top" Width="174" Margin="0,563,0,0" Click="GoToSettings"/>
 
-        <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="118" Margin="174,0,0,0" VerticalAlignment="Top" Width="1164"/>
-        <Label Content="Name:" FontSize="22" HorizontalAlignment="Left" Height="35" Margin="179,10,0,0" VerticalAlignment="Top" Width="80"/>
-        <TextBox HorizontalAlignment="Left" FontSize="22" Background="WhiteSmoke" Height="34" Margin="264,13,0,0" TextWrapping="Wrap" Text="Bobbarian" VerticalAlignment="Top" Width="259"/>
-        <Label Content="Class:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="530,12,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="594,13,0,0" TextWrapping="Wrap" Text="1 Barbarian" VerticalAlignment="Top" Width="222"/>
-        <Label Content="XP:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="830,9,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="882,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="69"/>
+        <Grid Name="Header">
+            <Rectangle Fill="LightBlue" HorizontalAlignment="Left" Height="118" Margin="174,0,0,0" VerticalAlignment="Top" Width="1164"/>
+            <Label Content="Name:" FontSize="22" HorizontalAlignment="Left" Height="35" Margin="179,10,0,0" VerticalAlignment="Top" Width="80"/>
+            <TextBox Name="nameBox" HorizontalAlignment="Left" FontSize="22" Background="WhiteSmoke" Height="34" Margin="264,13,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[0]}" VerticalAlignment="Top" Width="259"/>
+            <Label Content="Class:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="530,12,0,0" VerticalAlignment="Top" Width="64"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="594,13,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[1]}" VerticalAlignment="Top" Width="222"/>
+            <Label Content="XP:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="830,9,0,0" VerticalAlignment="Top" Width="64"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="882,10,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[2]}" VerticalAlignment="Top" Width="69"/>
 
-        <Label Content="Speed:" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="184,64,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="248,65,0,0" TextWrapping="Wrap" Text="30 ft" VerticalAlignment="Top" Width="73"/>
-        <Label Content="Player Name:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="964,12,0,0" VerticalAlignment="Top" Width="124"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="1086,13,0,0" TextWrapping="Wrap" Text="Bob" VerticalAlignment="Top" Width="222"/>
-        <Label Content="Race:" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="337,62,0,0" VerticalAlignment="Top" Width="64"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="401,64,0,0" TextWrapping="Wrap" Text="Human" VerticalAlignment="Top" Width="103"/>
-        <Label Content="Alignment:" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="527,65,0,0" VerticalAlignment="Top" Width="102"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="29" Margin="635,66,0,0" TextWrapping="Wrap" Text="CG" VerticalAlignment="Top" Width="40"/>
-        <Label Content="Prof Bonus:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="1149,69,0,0" VerticalAlignment="Top" Width="109"/>
-        <TextBox HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1258,65,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" Width="43"/>
-        <Label Content="Init:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="989,69,0,0" VerticalAlignment="Top" Width="109"/>
-        <TextBox HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1068,64,0,0" TextWrapping="Wrap" Text="+2" VerticalAlignment="Top" Width="43"/>
-        <Label Content="Passive Perception:" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="702,63,0,0" VerticalAlignment="Top" Width="170"/>
-        <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="29" Margin="887,65,0,0" TextWrapping="Wrap" Text="14" VerticalAlignment="Top" Width="40"/>
+            <Label Content="Speed:" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="184,64,0,0" VerticalAlignment="Top" Width="64"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="248,65,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[3]}" VerticalAlignment="Top" Width="73"/>
+            <Label Content="Player Name:" FontSize="18" HorizontalAlignment="Left" Height="35" Margin="964,12,0,0" VerticalAlignment="Top" Width="124"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="34" Margin="1086,13,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[4]}" VerticalAlignment="Top" Width="222"/>
+            <Label Content="Race:" FontSize="18" HorizontalAlignment="Left" Height="31" Margin="337,62,0,0" VerticalAlignment="Top" Width="64"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="401,64,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[5]}" VerticalAlignment="Top" Width="103"/>
+            <Label Content="Alignment:" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="527,65,0,0" VerticalAlignment="Top" Width="102"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="29" Margin="635,66,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[6]}" VerticalAlignment="Top" Width="40"/>
+            <Label Content="Prof Bonus:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="1149,69,0,0" VerticalAlignment="Top" Width="109"/>
+            <TextBox Name ="ProfBonusBox" HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1258,65,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[7]}" VerticalAlignment="Top" Width="43"/>
+
+            <Label Content="Init:" FontSize="18" HorizontalAlignment="Left" Height="33" Margin="989,69,0,0" VerticalAlignment="Top" Width="109"/>
+            <TextBox HorizontalAlignment="Left" FontSize="24" Background="WhiteSmoke" Height="37" Margin="1068,64,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[8]}" VerticalAlignment="Top" Width="43"/>
+            <Label Content="Passive Perception:" FontSize="18" HorizontalAlignment="Left" Height="37" Margin="702,63,0,0" VerticalAlignment="Top" Width="170"/>
+            <TextBox HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="29" Margin="887,65,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats[9]}" VerticalAlignment="Top" Width="40"/>
+        </Grid>
+        
         <Rectangle Fill="LightSteelBlue" HorizontalAlignment="Left" Height="306" Margin="180,123,0,0" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top" Width="449"/>
         <Rectangle Fill="Thistle" HorizontalAlignment="Left" Height="253" Margin="182,450,0,0" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top" Width="240"/>
         <Label x:Name="label" Content="Equipment" FontSize="35" HorizontalAlignment="Left" Margin="304,118,0,0" VerticalAlignment="Top"/>
@@ -44,11 +48,11 @@
         <Label x:Name="label1_Copy1" Content="Ideals:" FontSize="28" HorizontalAlignment="Left" Margin="642,266,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1_Copy2" Content="Flaws:" FontSize="28" HorizontalAlignment="Left" Margin="990,268,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label2" Content="Languages, Tool Proficiencies, etc :" FontSize="28" HorizontalAlignment="Left" Height="53" Margin="438,425,0,0" VerticalAlignment="Top" Width="444"/>
-        <TextBox Name="bondsBox" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="997,156,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="333"/>
-        <TextBox Name="personalityBox" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="647,158,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="333"/>
-        <TextBox Name="idealsBox" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="647,312,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="333"/>
-        <TextBox Name="flawsBox" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="997,312,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="333"/>
-        <TextBox Name="languagesBox" Background="Gainsboro" FontSize="20" HorizontalAlignment="Left" Height="227" Margin="442,476,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="888"/>
+        <TextBox Name="bondsBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="997,156,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[1]}" VerticalAlignment="Top" Width="333"/>
+        <TextBox Name="personalityBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="647,158,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[2]}" VerticalAlignment="Top" Width="333"/>
+        <TextBox Name="idealsBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="647,312,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[3]}" VerticalAlignment="Top" Width="333"/>
+        <TextBox Name="flawsBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="115" Margin="997,312,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[4]}" VerticalAlignment="Top" Width="333"/>
+        <TextBox Name="languagesBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="Gainsboro" FontSize="20" HorizontalAlignment="Left" Height="227" Margin="442,476,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[5]}" VerticalAlignment="Top" Width="888"/>
         <Label x:Name="label3" Content="Platinum: " FontSize="25" HorizontalAlignment="Left" Margin="186,660,0,0" VerticalAlignment="Top"/>
         <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="3" Margin="190,660,0,0" VerticalAlignment="Top" Width="213" RenderTransformOrigin="0.5,0.5">
             <Border.RenderTransform>
@@ -94,12 +98,12 @@
                 </TransformGroup>
             </Border.RenderTransform>
         </Border>
-        <TextBox Name="copporBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="306,499,0,0" TextWrapping="Wrap" Text="115" VerticalAlignment="Top" Width="73"/>
-        <TextBox Name="silverBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="306,539,0,0" TextWrapping="Wrap" Text="115" VerticalAlignment="Top" Width="73"/>
-        <TextBox Name="electrumBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="304,579,0,0" TextWrapping="Wrap" Text="115" VerticalAlignment="Top" Width="73"/>
-        <TextBox Name="goldBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="304,625,0,0" TextWrapping="Wrap" Text="115" VerticalAlignment="Top" Width="73"/>
-        <TextBox Name="platinumBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="304,667,0,0" TextWrapping="Wrap" Text="115" VerticalAlignment="Top" Width="73"/>
-        <TextBox Name="equipmentBox" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="246" Margin="192,174,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="425"/>
+        <TextBox Name="copporBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="306,499,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[6]}" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="silverBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="306,539,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[7]}" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="electrumBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="304,579,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[8]}" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="goldBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="304,625,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[9]}" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="platinumBox" HorizontalAlignment="Left" FontSize="18" Background="WhiteSmoke" Height="30" Margin="304,667,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[10]}" VerticalAlignment="Top" Width="73"/>
+        <TextBox Name="equipmentBox" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" Background="AliceBlue" FontSize="20" HorizontalAlignment="Left" Height="246" Margin="192,174,0,0" TextWrapping="Wrap" Text="{Binding Path=characterDetails[0]}" VerticalAlignment="Top" Width="425"/>
 
     </Grid>
 </Window>
