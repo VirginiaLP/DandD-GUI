@@ -48,3 +48,5 @@ C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Di
 C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Journal.baml
 C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\SavedStuff.baml
 C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Settings.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Spells.g.cs
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Spells.baml

@@ -32,6 +32,12 @@ namespace DandD
             cd.Show();
             this.Close();
         }
+        private void GoToSpells(object sender, RoutedEventArgs e)
+        {
+            Spells cd = new Spells();
+            cd.Show();
+            this.Close();
+        }
         private void GoToJournal(object sender, RoutedEventArgs e)
         {
             Journal j = new Journal();

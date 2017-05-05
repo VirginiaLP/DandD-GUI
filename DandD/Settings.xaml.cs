@@ -14,6 +14,8 @@ namespace DandD
         public Settings()
         {
             InitializeComponent();
+            this.DataContext = SavedThings.Instance;
+
         }
 
         private void loadStuff(object sender, RoutedEventArgs e)
@@ -43,6 +45,7 @@ namespace DandD
                 saveMe.journalText = loadMe.journalText;
                 saveMe.statArray = loadMe.statArray;
                 saveMe.unsavedChanges = false;
+                saveMe.spellsArray = loadMe.spellsArray;
             }
 
             MainWindow mw = new MainWindow();

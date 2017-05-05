@@ -202,9 +202,10 @@
         </Grid>
 
         <Grid Name="Spells">
-            <Rectangle Fill="Thistle" HorizontalAlignment="Left" Height="218" Margin="576,485,0,0" VerticalAlignment="Top" Width="366"/>
+            <Rectangle Fill="Thistle" HorizontalAlignment="Left" Height="218" Margin="568,484,0,0" VerticalAlignment="Top" Width="366"/>
             <Label Content="Spells" FontSize="30" HorizontalAlignment="Left" Height="59" Margin="709,478,0,0" VerticalAlignment="Top" Width="107"/>
-            <TextBox HorizontalAlignment="Left" AllowDrop="True" AcceptsReturn="True" AcceptsTab="True" FontSize="18" Height="143" Margin="592,537,0,0" TextWrapping="Wrap" Text="{Binding Path=characterStats2[14]}" VerticalAlignment="Top" Width="332"/>
+            <Button Content="Spell&#xD;&#xA;Sheet" FontSize="22" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="98" VerticalAlignment="Top" Width="174" Margin="664,562,0,0" Click="GoToSpells" />
+
         </Grid>
 
         <Grid Name="Feats">
