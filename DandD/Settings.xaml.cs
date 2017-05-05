@@ -42,7 +42,6 @@ namespace DandD
                 saveMe.characterDetails = loadMe.characterDetails;
                 saveMe.journalText = loadMe.journalText;
                 saveMe.statArray = loadMe.statArray;
-                saveMe.spells = loadMe.spells;
                 saveMe.unsavedChanges = false;
             }
 
@@ -63,7 +62,6 @@ namespace DandD
             loadMe.characterDetails = saveMe.characterDetails;
             loadMe.journalText = saveMe.journalText;
             loadMe.scoresArray = saveMe.scoresArray;
-            loadMe.spells = saveMe.spells;
 
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
             dlg.FileName = "Character";
