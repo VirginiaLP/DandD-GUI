@@ -22,16 +22,13 @@ namespace DandD
             LoadMe loadMe;
             XmlSerializer serial = new XmlSerializer(typeof(LoadMe));
 
-            // Configure open file dialog box
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
-            dlg.FileName = "Character"; // Default file name
-            dlg.DefaultExt = ".char"; // Default file extension
-            dlg.Filter = "Character Sheets (.char)|*.char"; // Filter files by extension
+            dlg.FileName = "Character";
+            dlg.DefaultExt = ".char";
+            dlg.Filter = "Character Sheets (.char)|*.char";
 
-            // Show open file dialog box
             Nullable<bool> result = dlg.ShowDialog();
 
-            // Process open file dialog box results
             if (result == true)
             {
                 using (StreamReader reader = new StreamReader(dlg.FileName))
@@ -45,6 +42,7 @@ namespace DandD
                 saveMe.characterDetails = loadMe.characterDetails;
                 saveMe.journalText = loadMe.journalText;
                 saveMe.statArray = loadMe.statArray;
+                saveMe.spells = loadMe.spells;
                 saveMe.unsavedChanges = false;
             }
 
@@ -65,16 +63,15 @@ namespace DandD
             loadMe.characterDetails = saveMe.characterDetails;
             loadMe.journalText = saveMe.journalText;
             loadMe.scoresArray = saveMe.scoresArray;
+            loadMe.spells = saveMe.spells;
 
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
-            dlg.FileName = "Character"; // Default file name
-            dlg.DefaultExt = ".char"; // Default file extension
-            dlg.Filter = "Character Sheets (.char)|*.char"; // Filter files by extension
+            dlg.FileName = "Character";
+            dlg.DefaultExt = ".char";
+            dlg.Filter = "Character Sheets (.char)|*.char";
 
-            // Show save file dialog box
             Nullable<bool> result = dlg.ShowDialog();
 
-            // Process save file dialog box results
             if (result == true)
             {
                 XmlWriterSettings settings = new XmlWriterSettings();

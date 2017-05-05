@@ -17,6 +17,7 @@ namespace DandD
         public string[] characterDetails { get; set; }
         public string[] journalText { get; set; }
         public bool[] statArray { get; set; }
+        public string[] spells { get; set; }
     }
 
     public class SavedThings : INotifyPropertyChanged
@@ -79,6 +80,18 @@ namespace DandD
                 _statarray = value;
 
                 OnPropertyChanged("statArray");
+            }
+        }
+
+        string[] _spells = { "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" };
+        public string[] spells
+        {
+            get { return _spells; }
+            set
+            {
+                _spells = value;
+
+                OnPropertyChanged("spells");
             }
         }
 
