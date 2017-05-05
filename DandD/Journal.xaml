@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DandD"
         mc:Ignorable="d"
-        Title="Journal" Height="738.708" Width="1354.813">
+        Title="Journal" Height="738.708" Width="1354.813" WindowStartupLocation="CenterScreen">
     <Grid>
         <Button Content="Character Stats" FontSize="22" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="147" VerticalAlignment="Top" Width="174" Click="GoToCharStats"/>
         <Button Content="Character Details" FontSize="20" Background="DarkCyan" BorderBrush="DarkSlateGray" BorderThickness="3" HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="174" Margin="0,146,0,0" Click="GoToCharDetails"/>
