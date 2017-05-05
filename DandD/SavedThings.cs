@@ -21,6 +21,7 @@ namespace DandD
 
     public class SavedThings : INotifyPropertyChanged
     {
+        public bool unsavedChanges = false;
         private static SavedThings instance;
         private SavedThings() { }
 
@@ -30,6 +31,7 @@ namespace DandD
         {
             if(PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(info));
+            unsavedChanges = true;
         }
 
         public static SavedThings Instance

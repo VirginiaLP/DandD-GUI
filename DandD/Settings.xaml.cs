@@ -45,6 +45,7 @@ namespace DandD
                 saveMe.characterDetails = loadMe.characterDetails;
                 saveMe.journalText = loadMe.journalText;
                 saveMe.statArray = loadMe.statArray;
+                saveMe.unsavedChanges = false;
             }
 
             MainWindow mw = new MainWindow();
