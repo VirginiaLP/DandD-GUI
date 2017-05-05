@@ -1,0 +1,14 @@
+Korbin and Virginia
+D&D Character App Features
+-Character Stats Page
+	-entering stats updates skill bonus - done
+	-changing proficiency and skills based on proficiency bonus and skill bonus - done
+-Character Details Page
+	-holds character details, personality, traits, equipment, etc. - done
+-Dice Roller
+	-rolls xdy based on user input - done
+	-shows the individual dice rolled and the sum - done
+-Journal Page
+	-holds journal entries, a quest log, and notes - done
+-Settings Page
+	-Allows user to save the info out into a file and load a file - TODO

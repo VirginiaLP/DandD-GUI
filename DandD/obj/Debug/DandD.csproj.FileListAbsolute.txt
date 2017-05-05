@@ -39,3 +39,12 @@ C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\DandD.csprojResolveAs
 C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\SavedThings.baml
 C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\App.baml
 C:\Users\Korbin\Documents\C# Lab\DandD-GUI\DandD\obj\Debug\SavedStuff.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\SavedThings.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DiceRoller.g.cs
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Journal.g.cs
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Settings.g.cs
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\App.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\DiceRoller.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Journal.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\SavedStuff.baml
+C:\Users\Virginia\documents\visual studio 2015\Projects\DandD\DandD\obj\Debug\Settings.baml

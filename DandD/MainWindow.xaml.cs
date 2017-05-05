@@ -145,9 +145,13 @@ namespace DandD
             System.Windows.Markup.XamlWriter.Save(rd, writer);
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void testFunc(object sender, RoutedEventArgs e)
         {
-
+            TextBox tb = new TextBox();
+            tb.Width = 200;
+            tb.Height = 20;
+            tb.Text = "hey, cool!";
+            Spells.Children.Add(tb);
         }
     }
 }
